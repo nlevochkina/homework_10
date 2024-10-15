@@ -7,7 +7,7 @@ from allure_commons.types import Severity
 @allure.tag('web')
 @allure.severity(Severity.CRITICAL)
 @allure.label('owner', 'nlevochkina')
-@allure.feature('Задачи в репозитории')
+@allure.feature('Задачи в репозитории №2')
 @allure.story('Пользователь может делать поиск в Википедии')
 @allure.link('https://ru.wikipedia.org', name='Testing')
 def test_selene():
